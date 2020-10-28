@@ -10,7 +10,7 @@ public class ShA1 {
         try {
             String timestamp = String.valueOf(System.currentTimeMillis() / 1000);
             String nonce = String.valueOf((int) ((Math.random() * 9 + 1) * 100000));
-            String str="K;9)Bq|ScMF1h=Vp5uA-G87d(_fi[aP,.w^{vQ:WWWWW";
+            String str="K;9)Bq|ScMF1h=Vp5uA-G87d(_fi[aP,.w^{vQ:WWWWWw";
 
             //将“密钥”，“系统当前的Unix时间戳”，“随机数”放到数组中，然后对数组进⾏字符串排序，将排序结果重
             //新拼接成字符串，然后计算字符串的sha1散列值，这个值就是“signature”签名结果值
