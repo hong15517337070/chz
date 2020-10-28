@@ -1,0 +1,5 @@
+exe.deps=[:]//全局的map 为了让其他的gradle文件访问
+
+ def versions=[:]
+//版本号
+
